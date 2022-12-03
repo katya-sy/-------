@@ -62,7 +62,6 @@ img {
 .burger--line {
     position: absolute;
     left: 50%;
-    top: var(--offset-vertical);
     display: inline-block;
     width: calc(100% - (var(--offset-horizontal) * 2));
     height: 2px;
@@ -70,8 +69,12 @@ img {
     transform: translateX(-50%);
 }
 
+.burger--line {
+    top: 50%;
+}
+
 .burger--line:nth-child(2) {
-    top: calc(var(--offset-vertical) + 6 px);
+    top: var(--offset-vertical);
 }
 
 .burger--line:nth-child(3) {
