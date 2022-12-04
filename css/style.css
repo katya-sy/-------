@@ -59,7 +59,7 @@ img {
     background-color: #F5F6F7;
 }
 
-.burger--line {
+.burger__line {
     position: absolute;
     left: 50%;
     display: inline-block;
@@ -69,16 +69,16 @@ img {
     transform: translateX(-50%);
 }
 
-.burger--line {
+.burger__line {
     top: 50%;
 }
 
-.burger--line:nth-child(2) {
+.burger__line:nth-child(2) {
     top: var(--offset-vertical);
 }
 
-.burger--line:nth-child(3) {
-    top: calc(var(--offset-vertical) + 12 px);
+.burger__line:nth-child(3) {
+    top: calc(var(--offset-vertical) + 12px);
 }
 
 .hero {
