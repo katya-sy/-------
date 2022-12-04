@@ -381,3 +381,39 @@ img {
     line-height: 21px;
     color: #b5c096;
 }
+
+
+@media (max-width: 992px) {
+    .services__list {
+        gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item__subtitle {
+        max-width: none;
+    }
+
+    .item__descr {
+        max-width: none;
+    }
+
+    .footer__middle {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer__column:last-child::before {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    
+}
+
+@media (max-width: 576px) {
+    
+}
+
+@media (max-width: 375px) {
+    
+}
