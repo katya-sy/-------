@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: '', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
 
@@ -44,6 +44,7 @@ img {
 }
 
 .btn-reset {
+    font-family: 'Poppins', sans-serif;
     padding: 0;
     border: none;
     background-color: transparent;
@@ -55,6 +56,20 @@ img {
     max-width: 1140px;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.link {
+    display: inline-block;
+    border-bottom: 1px solid currentColor;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 11px;
+    text-decoration: none;
+    color: #d4d6d4;
+}
+
+.link:hover {
+    color: #ffd723;
 }
 
 .header {
@@ -79,7 +94,7 @@ img {
     padding: var(--offset-vertical) var(--offset-horizontal);
     width: 40px;
     height: 40px;
-    background-color: #F5F6F7;
+    background-color: #f5f6f7;
 }
 
 .burger__line {
@@ -105,9 +120,46 @@ img {
 }
 
 .hero {
-    padding-top: 100px;
+    min-height: 811px;
+    padding-top: 189px;
+    padding-bottom: 210px;
     background-image: url(../img/hero-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.hero__content {
+    max-width: 600px;
+}
+
+.hero__subtitle {
+    margin-bottom: 22px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #fff;
+    }
+
+.hero__title {
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    color: #fff;
+}
+
+.hero__descr {
+    margin-bottom: 45px;
+    max-width: 540px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.link svg {
+    fill: currentColor;
+}
+
+.hero__link {
+    color: #ffd723;
 }
