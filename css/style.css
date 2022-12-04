@@ -165,6 +165,7 @@ img {
 }
 
 .services {
+    margin-bottom: -180px;
     padding: 150px 0;
 }
 
@@ -210,4 +211,33 @@ img {
 .item__link {
     margin-bottom: 0;
     margin-top: auto;
+}
+
+.get-started {
+    position: relative;
+    top: 180px;
+    padding: 70px 0;
+    width: 88%;
+    background-color: #fafafa;
+    box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+}
+
+.get-started__title {
+    margin-bottom: 50px;
+    max-width: 822px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+    color: #4D533C;
+}
+
+.get-started__link {
+    text-transform: uppercase;
+}
+
+.footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
