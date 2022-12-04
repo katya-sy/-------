@@ -236,8 +236,39 @@ img {
 }
 
 .footer {
+    padding-top: 300px;
+    color: #fff;
     background-image: url(../img/footer-bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.footer__top {
+    padding-bottom: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #5d6544;;
+}
+
+.footer__contacts:not(:last-child) {
+    margin-right: 128px;
+}
+
+.contacts__text {
+    margin-bottom: 8px;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    color: #b6c197;
+}
+
+.contacts__value {
+    display: inline-block;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 40px;
+    text-decoration: none;
 }
